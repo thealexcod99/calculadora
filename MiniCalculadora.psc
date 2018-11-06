@@ -34,13 +34,12 @@ Subproceso ret <- Division ( a,b )
 Fin Subproceso
 
 
-
 Algoritmo Minicalculadora
 	
 	Definir a, b, res Como Entero
 	Definir op Como Entero
 	
-	op <-CapturarOpcion()
+	op <- CapturarOpcion()
 	
 	si op>=1 y op<=4 Entonces
 		
